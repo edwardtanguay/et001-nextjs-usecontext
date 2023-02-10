@@ -3,4 +3,8 @@ body {
 	color: #ccc;
 	font-family: sans-serif;
 	padding: 1rem;
+
+	.active {
+		color: rgb(218, 218, 123);
+	}
 }
