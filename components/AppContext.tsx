@@ -18,7 +18,7 @@ export const AppProvider: React.FC<IAppProvider> = ({ children }) => {
 	return (
 		<AppContext.Provider
 			value={{
-				siteTitle: 'nnn'
+				siteTitle
 			}}
 		>
 			{children}
