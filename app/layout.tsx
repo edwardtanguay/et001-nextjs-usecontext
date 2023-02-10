@@ -1,6 +1,7 @@
 import Header from '../components/Header';
 import '../styles/globals.css';
 import '../styles/site.scss';
+import { AppProvider } from '../components/AppContext';
 
 export default function RootLayout({
 	children
@@ -13,7 +14,7 @@ export default function RootLayout({
 				<head />
 				<body>
 					<Header />
-					{children}
+					<AppProvider>{children}</AppProvider>
 				</body>
 			</html>
 		</>
