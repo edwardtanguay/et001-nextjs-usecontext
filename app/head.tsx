@@ -14,12 +14,12 @@ export default function Head() {
 			/>
 			<meta
 				property="og:title"
-				content="the site"
+				content="Info Site"
 			/>
 			<meta property="og:type" content="site" />
 			<meta
 				property="og:description"
-				content="site desc"
+				content="This is a Next.js site call Info Site which serves as an example how to create a Next.js site with useContext, TypeScript, Tailwind and other features. This text will be shown in social-media previews for every page that does not implement its own head information with a head.tsx file. Note also that each page can have its own social-media preview graphic."
 			/>
 			<meta
 				property="og:image"
