@@ -8,15 +8,16 @@ function Header() {
 
 	return (
 		<>
-			<h1 className="text-yellow-400 text-3xl font-bold mb-4">
-				Info Site
-			</h1>
+			<div className="headerArea">
+				<img src="images/info-icon.png" />
+				<h1 className="text-yellow-400 text-3xl font-bold mb-4">
+					Info Site
+				</h1>
+			</div>
 			<nav className="bg-neutral-800 py-1 px-2 mb-4">
 				<Link
 					href="/"
-					className={`mr-3 ${
-						activeSegment === null ? 'active' : ''
-					}`}
+					className={`mr-3 ${activeSegment === null ? 'active' : ''}`}
 				>
 					Welcome
 				</Link>
