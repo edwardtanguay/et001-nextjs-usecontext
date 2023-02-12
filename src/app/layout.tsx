@@ -1,7 +1,7 @@
 import Header from '../components/Header';
 import '../styles/globals.css';
 import '../styles/site.scss';
-import { AppProvider } from '../components/AppContext';
+import { AppProvider } from '../AppContext';
 
 export default function RootLayout({
 	children
