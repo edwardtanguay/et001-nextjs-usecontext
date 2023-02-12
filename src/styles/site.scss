@@ -22,4 +22,16 @@ body {
 	.sass-error-area {
 		width: 18rem;
 	}
+
+	animation: fadein 2.5s ease-in;
+
+	@keyframes fadein {
+		from {
+			opacity: 0;
+		}
+
+		to {
+			opacity: 1;
+		}
+	}
 }

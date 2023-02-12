@@ -1,9 +1,14 @@
 'use client';
-
+import { useState, useEffect } from 'react';
 import { createContext } from 'react';
+import { IJob } from './interfaces';
+import axios from 'axios';
+
+const jobsUrl = 'https://edwardtanguay.vercel.app/share/jobs.json';
 
 interface IAppContext {
 	siteTitle: string;
+	jobs: IJob[];
 }
 
 interface IAppProvider {
@@ -14,11 +19,19 @@ export const AppContext = createContext<IAppContext>({} as IAppContext);
 
 export const AppProvider: React.FC<IAppProvider> = ({ children }) => {
 	const siteTitle = 'Info Site';
+	const [jobs, setJobs] = useState<IJob[]>([]);
+
+	useEffect(() => {
+		(async () => {
+			setJobs((await axios.get(jobsUrl)).data);
+		})();
+	}, []);
 
 	return (
 		<AppContext.Provider
 			value={{
-				siteTitle
+				siteTitle,
+				jobs
 			}}
 		>
 			{children}

@@ -1,7 +1,6 @@
 'use client';
 import { useContext } from 'react';
 import { AppContext } from '../../AppContext';
-import Head from 'next/head';
 
 function Info() {
 	const { siteTitle } = useContext(AppContext);
