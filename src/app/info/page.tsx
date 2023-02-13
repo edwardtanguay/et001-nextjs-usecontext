@@ -3,7 +3,7 @@ import { useContext } from 'react';
 import { AppContext } from '../../AppContext';
 
 function Info() {
-	const { siteTitle, jobs } = useContext(AppContext);
+	const { siteTitle, jobs, skills } = useContext(AppContext);
 
 	return (
 		<div className="page pageInfo">
@@ -15,6 +15,19 @@ function Info() {
 						return (
 							<div className="job" key={job.id}>
 								<div className="title">{job.title}</div>
+							</div>
+						);
+					})}
+				</div>
+				<div className="skills">
+					<h2>{skills.length} Skills</h2>
+					{skills.map((skill) => {
+						return (
+							<div className="skill" key={skill.name}>
+								<div className="item">
+									<span className="name">{skill.name}</span> -{' '}
+									{skill.description}
+								</div>
 							</div>
 						);
 					})}
