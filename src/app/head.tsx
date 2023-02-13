@@ -23,7 +23,7 @@ export default function Head() {
 			/>
 			<meta
 				property="og:image"
-				content="https://et001-nextjs-usecontext.vercel.app/images/info-icon.png"
+				content="https://et001-nextjs-usecontext.tanguay.eu/images/info-icon.png"
 			/>
 			<meta property="og:url" content="https://starters.tanguay.eu" />
     </>

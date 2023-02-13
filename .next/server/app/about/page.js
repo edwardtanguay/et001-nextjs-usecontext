@@ -428,7 +428,7 @@ function Head({ params  }) {
             }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
                 property: "og:image",
-                content: "https://et001-nextjs-usecontext.vercel.app/images/about-page.png"
+                content: "https://et001-nextjs-usecontext.tanguay.eu/images/about-page.png"
             }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
                 property: "og:url",

@@ -82,7 +82,7 @@ function Head() {
             }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
                 property: "og:image",
-                content: "https://et001-nextjs-usecontext.vercel.app/images/info-icon.png"
+                content: "https://et001-nextjs-usecontext.tanguay.eu/images/info-icon.png"
             }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
                 property: "og:url",
