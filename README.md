@@ -1,6 +1,6 @@
 # Next.js Site with Menu and useContext
 
-This is a simple Next.js site that has Typescript, Sass and Tailwind installed. It uses the new Next.js 13 app folder and so the files and folders in the app folder are automatically URL routes, i.e. no need for React Router. It also has useContext implemented with an example of loading both static and API data in useContext and using these state variables on two separate pages. It has an image that is loaded from `public/images` and has a custom 404 page. I deployed it at both Vercel and Netflify choosing all default choices.
+This is a simple Next.js site that has Typescript, Sass and Tailwind installed. It uses the new Next.js 13 app folder and so the files and folders in the app folder are automatically URL routes, i.e. no need for React Router. It also has useContext implemented with an example of loading both static and API data in useContext and using these state variables on two separate pages. It has an image that is loaded from `public/images` and has a custom 404 page. I deployed it at both Vercel and Netlify choosing all default choices.
 
 ![grafik](https://starters.tanguay.eu/images/starters/blankViteDarkMenuUsecontextNextjs.png)
 
