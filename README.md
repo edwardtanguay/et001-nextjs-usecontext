@@ -1,1 +1,7 @@
-# et001-nextjs-usecontext
+- built with **create-next-app**
+- uses the new Next.js 13 app folder and so has automatic URL routing
+- TypeScript and ES6 modules
+- a mixture of **Tailwind** and **Sass**, they work nicely together, for each styling task you can choose whichever you want
+- custom 404 page
+- useContext is implemented
+- uses Next.js's server-side-rendering and so has good SEO and you can make custom social-media previews with title, description and image for each page
