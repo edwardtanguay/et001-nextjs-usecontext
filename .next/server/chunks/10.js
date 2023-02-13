@@ -227,7 +227,7 @@ function Header() {
                     }),
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h1", {
                         className: "text-yellow-400 text-3xl font-bold mb-4",
-                        children: "Info Site - Next.js 13 - testing 001"
+                        children: "Info Site - Next.js 13 - testing 002"
                     })
                 ]
             }),
