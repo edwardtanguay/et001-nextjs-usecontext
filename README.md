@@ -36,6 +36,6 @@ This is a simple Next.js site that has Typescript, Sass and Tailwind installed. 
 - start your site and click given link to view website
   - `npm run dev`
 
-## more starters, templates and frameworks
+## more starters, templates and frameworks 
 
 https://starters.tanguay.eu
