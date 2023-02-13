@@ -3,7 +3,7 @@
   "scripts": {
     "dev": "next dev -p 4011",
     "build": "next build",
-    "start": "vite serve --host --port 3506",
+    "start": "next serve --host --port 3506",
     "setup": "npm i && pm2 start --name et001-nextjs-usecontext npm -- start --update-env --time && pm2 save",
 		"deploy": "git pull --no-rebase && pm2 restart et001-nextjs-usecontext --update-env --time && pm2 save"
   },
