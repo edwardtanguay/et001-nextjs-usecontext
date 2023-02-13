@@ -22,7 +22,7 @@ This is a simple Next.js site that has Typescript, Sass and Tailwind installed. 
 - go to your projects directory
   - e.g. `cd ~/projects`
 - in your projects directory, create your new site e.g. **site001** by cloning this project 
-  - `git clone git@github.com:edwardtanguay/blank-vite-dark-menu-usecontext.git site001`
+  - `git clone git@github.com:edwardtanguay/et001-nextjs-usecontext.git site001`
 - open your newly created site in VSCode
   - `code site001`
 - inside VSCode, open the VSCode terminal
